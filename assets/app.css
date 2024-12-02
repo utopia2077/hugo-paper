@@ -9,13 +9,22 @@
 @tailwind components;
 @tailwind utilities;
 
+@font-face {
+  font-family: 'LXGW_WenKai';
+  src: url('/LXGWWenKaiGBScreen.ttf') format('truetype');
+  font-weight: normal;
+  font-style: normal;
+}
+
 @layer base {
   :root {
-    --w: calc(680px + 32px * 2);
+    /* --w: calc(960px + 32px * 2); */
+    --w: 60vw;
   }
 
   body {
     @apply min-h-screen bg-[--bg] antialiased [-webkit-tap-highlight-color:transparent];
+    font-family: 'LXGW_WenKai', sans-serif;
 
     @apply dark:before:fixed dark:before:inset-0 dark:before:bg-black/85;
   }
@@ -28,6 +37,11 @@
 
   pre {
     direction: ltr;
+  }
+
+  article {
+    @apply text-lg leading-[1.8] text-black dark:text-white;
+    font-family: 'LXGW_WenKai', sans-serif;
   }
 }
 
