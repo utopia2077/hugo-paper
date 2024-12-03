@@ -562,8 +562,8 @@ video {
 }
 
 :root {
-  /* --w: calc(960px + 32px * 2); */
-  --w: 60vw;
+  --w: calc(780px + 32px * 2);
+  /* --w: 60vw; */
 }
 
 body {
