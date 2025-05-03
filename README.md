@@ -66,7 +66,7 @@ Available options to `config.toml` or `hugo.toml`:
   math = true                               # enable KaTeX math typesetting globally
   localKatex = false                        # use local KaTeX js/css instead of CDN
   graphCommentId = "YOUR_GRAPH_COMMENT_ID"  # use graph comment (disqus alternative)
-  favicon = "favicon.ico"                   # customize the default favicon
+  favicon = "favicon.png"                   # customize the default favicon
   appleTouchIcon = "apple-touch-icon.png"   # customize the default Apple touch icon
 
   # RTL supprot
